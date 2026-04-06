@@ -1,0 +1,9 @@
+client/node_modules/
+client/dist/
+server/.venv/
+server/__pycache__/
+server/app/__pycache__/
+server/app/routers/__pycache__/
+server/*.db
+server/*.db-journal
+*.pyc
