@@ -18,16 +18,6 @@ Du an mau quan ly phong kham gom:
 - Tong hop lich su kham theo bac si
 - Thong ke lich su kham theo khoang thoi gian
 
-## Chay backend
-
-```bash
-cd server
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-```
-
 Tai khoan mac dinh:
 
 - Username: `admin`
