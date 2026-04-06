@@ -33,20 +33,6 @@ Tai khoan mac dinh:
 - Username: `admin`
 - Password: `admin123`
 
-## Chay frontend
-
-```bash
-cd client
-npm install
-npm run dev
-```
-
-## Goi y nop bai / GitHub
-
-- Tao moi thanh vien mot branch rieng, vi du: `feature/patient-module`, `feature/doctor-module`
-- Moi branch can co it nhat mot commit
-- Sau khi merge, chup man hinh lich su commit de chung minh phan cong cong viec
-
 ## Ghi chu ky thuat
 
 - Backend dang dung SQLite file va luu tai `C:\Users\lanph\OneDrive\Tài liệu\Playground\server\clinic.db`. Ban co the mo file nay bang DB Browser for SQLite sau khi chay server it nhat mot lan. Khi trien khai that, nhom co the doi `DATABASE_URL` trong `server/app/database.py` sang MySQL hoac SQL Server.
